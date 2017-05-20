@@ -4,7 +4,7 @@ import java.util.Set;
 /**
  * Created by littlejie on 2017/5/18.
  */
-public class Q3_LongestSubstringWithoutRepeatingCharacters {
+public class Q3LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
