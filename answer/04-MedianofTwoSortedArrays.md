@@ -1,4 +1,4 @@
-# 04_Median of Two Sorted Arrays
+# 04 Median of Two Sorted Arrays
 
 首先假设数组A和B的元素个数都大于k/2，我们比较A[k/2-1]和B[k/2-1]两个元素，这两个元素分别表示A的第k/2小的元素和B的第k/2小的元素。这两个元素比较共有三种情况：>、<和=。
 

@@ -6,3 +6,7 @@
 ## [02-AddTwoNumbers](answer/02-AddTwoNumbers.md)
 
 ## [03-LongestSubstringWithoutRepeatingCharacters](answer/03-LongestSubstringWithoutRepeatingCharacters.md)
+
+## [04-MedianofTwoSortedArrays](answer/04-MedianofTwoSortedArrays.md)
+
+## [09-PalindromeNumber](answer/09-PalindromeNumber.md)
