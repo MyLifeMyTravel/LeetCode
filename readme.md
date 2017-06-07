@@ -133,3 +133,25 @@ public static int reverse(int x) {
 
 1234321 % 1000000 = 1;
 1234321 / 100000  = 1;
+
+## 14-Longest Common Prefix
+
+这题是让我们求解字符串数组的从第一位开始的公共字符串。这里使用暴力求解的方法，具体讨论可以参考[Longest Common Prefix Solution](https://leetcode.com/articles/longest-common-prefix)
+
+```
+public static String longestCommonPrefix(String[] strs) {
+    if (strs == null || strs.length == 0) {
+        return "";
+    }
+    String prefix = strs[0];
+    for (int i = 1; i < strs.length; i++) {
+        int j = 0;
+        while (j < prefix.length() && j < strs[i].length()
+                && prefix.charAt(j) == strs[i].charAt(j)) {
+            j++;
+        }
+        prefix = prefix.substring(0, j);
+    }
+    return prefix;
+}
+```
